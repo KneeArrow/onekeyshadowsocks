@@ -3,7 +3,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/KneeArrow/shadowso
 wget --no-check-certificate https://raw.githubusercontent.com/KneeArrow/shadowsocks_install/master/shadowsocks-crond.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/KneeArrow/serverspeeder/master/serverspeeder-all.sh
 #wget --no-check-certificate https://raw.githubusercontent.com/KneeArrow/net-speeder/master/net-speeder_CentOS.sh
-chmod +x shadowsocks.sh
+chmod +x shadowsocks-go.sh
 chmod +x shadowsocks-crond.sh
 chmod +x serverspeeder-all.sh
 #chmod +x net-speeder_CentOS.sh
