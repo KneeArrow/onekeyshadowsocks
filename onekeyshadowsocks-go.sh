@@ -1,5 +1,5 @@
 #!/bin/sh
-wget --no-check-certificate https://raw.githubusercontent.com/KneeArrow/shadowsocks_install/master/shadowsocks-go.sh
+wget --no-check-certificate https://raw.githubusercontent.com/KneeArrow/shadowsocks_install/master/shadowsocks-go
 wget --no-check-certificate https://raw.githubusercontent.com/KneeArrow/shadowsocks_install/master/shadowsocks-crond.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/KneeArrow/serverspeeder/master/serverspeeder-all.sh
 #wget --no-check-certificate https://raw.githubusercontent.com/KneeArrow/net-speeder/master/net-speeder_CentOS.sh
