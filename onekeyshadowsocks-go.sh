@@ -7,7 +7,7 @@ chmod +x shadowsocks-go.sh
 chmod +x shadowsocks-crond.sh
 chmod +x serverspeeder-all.sh
 #chmod +x net-speeder_CentOS.sh
-./shadowsocks.sh 2>&1 | tee shadowsocks.log
+./shadowsocks-go.sh 2>&1 | tee shadowsocks.log
 bash serverspeeder-all.sh
 #sh net-speeder_CentOS.sh
 echo '*/5 * * * * root bash /root/shadowsocks-crond.sh' >>  /etc/crontab
