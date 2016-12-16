@@ -5,7 +5,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/KneeArrow/serve
 chmod +x shadowsocksR.sh
 chmod +x shadowsocks-crond.sh
 chmod +x serverspeeder-all.sh
-./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
+./shadowsocksR.sh 2>&1 | tee shadowsocks-go.log
 bash serverspeeder-all.sh
 echo '*/5 * * * * root bash /root/shadowsocks-crond.sh' >>  /etc/crontab
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
