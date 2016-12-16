@@ -9,6 +9,5 @@ chmod +x serverspeeder-all.sh
 bash serverspeeder-all.sh
 echo '*/5 * * * * root bash /root/shadowsocks-crond.sh' >>  /etc/crontab
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-reboot
 
 
